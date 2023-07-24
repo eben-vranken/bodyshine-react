@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Components/Common/Header";
+import Page from "../Components/UI/Page";
 
 const Home = () => {
     // Replace these with your actual information
@@ -9,13 +10,13 @@ const Home = () => {
     const imageUrl = "your_image_url";
 
     return (
-        <section className="h-full w-11/12">
+        <Page className="flex-col">
             <Header text="Home" />
             <section className="w-32 h-32 border border-white rounded-full overflow-hidden flex justify-center items-center">
                 <img src="" alt="test" />
                 
             </section>
-        </section>
+        </Page>
     );
 };
 

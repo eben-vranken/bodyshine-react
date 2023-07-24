@@ -12,7 +12,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <main className="App w-full h-screen flex items-center flex-col justify-between">
+    <main className="App w-full h-screen flex items-center flex-col justify-between font-body">
       <Navbar />
 
       {/* Routing */}

@@ -11,6 +11,11 @@ module.exports = {
       aspectRatio: {
         'banner': '3.5 / 1'
       },
+      fontFamily: {
+        title: ['Josefin Sans', 'sans-serif'],
+        body: ['Cardo', 'serif'],
+        brand: ['MoonTime']
+      }
     }
   },
   plugins: [],
