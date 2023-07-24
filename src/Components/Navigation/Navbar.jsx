@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="w-11/12 py-4 flex justify-between">
       {/* Brand */}
       <ul>
-        <Link to="/">Bodyshine</Link>
+        <Link to="/bodyshine-react">Bodyshine</Link>
       </ul>
 
       {/* Navigation */}
