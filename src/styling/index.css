@@ -1,11 +1,9 @@
 @tailwind base;
 @tailwind components;
+@import "./fonts.css";
 @tailwind utilities;
 
-body,
-body * {
-  font-family: Verdana, Tahoma, sans-serif;
-}
+
 
 input,
 textarea {
