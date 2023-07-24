@@ -16,3 +16,12 @@ body {
   background-color: #1e1e1e;
   color: white;
 }
+
+.font-brand {
+  text-shadow: 1px 1px 15px #E25F27;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}

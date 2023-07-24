@@ -6,6 +6,7 @@ import Banner from "../Components/Common/Banner";
 
 // Media
 import banner from "../assets/images/contact-banner.jpg"
+import Page from "../Components/UI/Page";
 
 const Contact = () => {
     const form = useRef();
@@ -24,7 +25,7 @@ const Contact = () => {
     }
 
     return (
-        <section className="h-full w-3/12 flex justify-center items-center flex-col">
+        <Page className="lg:w-3/12">
             <Banner img={banner} alt="contact-banner" text="Contact" />
 
             <form ref={form} onSubmit={sendMail} id="contact-form" className="my-5 w-full [&>section]:my-5">
@@ -51,7 +52,7 @@ const Contact = () => {
 
                 <button type="submit" className="rounded bg-[#2d2d30] px-5 py-2">Send Message</button>
             </form>
-        </section>
+        </Page>
     )
 };
 
