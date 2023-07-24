@@ -9,7 +9,7 @@ import banner from "../assets/images/massages-banner.jpg"
 
 const Massages = () => {
     return (
-        <Page className="w-full">
+        <Page className="flex-col">
 
             <Banner img={banner} alt="contact-banner" text="Massages" />
 

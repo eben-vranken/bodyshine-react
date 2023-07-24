@@ -10,7 +10,7 @@ const Home = () => {
     const imageUrl = "your_image_url";
 
     return (
-        <Page className="justify-start">
+        <Page className="flex-col">
             <Header text="Home" />
             <div className="flex mt-8">
                 <div className="relative flex-shrink-0">
