@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="w-11/12 py-4 flex justify-between">
+    <nav className="w-11/12 lg:w-3/5 py-4 flex justify-between">
       {/* Brand */}
       <ul>
         <Link to="/bodyshine-react">Bodyshine</Link>

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Components/Common/Header";
+import Page from "../Components/UI/Page";
 
 const Home = () => {
     // Replace these with your actual information
@@ -9,7 +10,7 @@ const Home = () => {
     const imageUrl = "your_image_url";
 
     return (
-        <section className="h-full w-11/12">
+        <Page className="justify-start">
             <Header text="Home" />
             <div className="flex mt-8">
                 <div className="relative flex-shrink-0">
@@ -26,7 +27,7 @@ const Home = () => {
                     <p className="text-lg">{aboutMe}</p>
                 </div>
             </div>
-        </section>
+        </Page>
     );
 };
 
