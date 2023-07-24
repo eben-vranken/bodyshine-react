@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+// Components
+import Footer from "./Components/Common/Footer";
+import Navbar from "./Components/Navigation/Navbar";
+
+// Pages
+import Home from "./Pages/Home";
+import Massages from "./Pages/Massages";
+import Contact from "./Pages/Contact";
+
+// Router
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App w-full h-screen flex items-center flex-col justify-between text-white bg-dark">
+      <Navbar />
+
+      {/* Routing */}
+      <Routes>
+        <Route path="/bodyshine-react" element={<Home />} />
+        <Route path="/bodyshine-react/Massages" element={<Massages />} />
+        <Route path="/bodyshine-react/Contact" element={<Contact />} />
+      </Routes>
+
+
+
+      <Footer />
+    </main>
   );
 }
 
