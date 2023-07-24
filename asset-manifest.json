@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bodyshine-react/static/css/main.a87cedc0.css",
-    "main.js": "/bodyshine-react/static/js/main.674c4d90.js",
+    "main.css": "/bodyshine-react/static/css/main.7a7b8c8f.css",
+    "main.js": "/bodyshine-react/static/js/main.68f09a5f.js",
     "static/media/contact-banner.jpg": "/bodyshine-react/static/media/contact-banner.351d22aa742aae13693c.jpg",
     "static/media/massages-banner.jpg": "/bodyshine-react/static/media/massages-banner.71841eeb300aa84dfa55.jpg",
     "static/media/MoonTime-Regular.ttf": "/bodyshine-react/static/media/MoonTime-Regular.b83db42eb10b3fc7bd0f.ttf",
     "index.html": "/bodyshine-react/index.html",
-    "main.a87cedc0.css.map": "/bodyshine-react/static/css/main.a87cedc0.css.map",
-    "main.674c4d90.js.map": "/bodyshine-react/static/js/main.674c4d90.js.map"
+    "main.7a7b8c8f.css.map": "/bodyshine-react/static/css/main.7a7b8c8f.css.map",
+    "main.68f09a5f.js.map": "/bodyshine-react/static/js/main.68f09a5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a87cedc0.css",
-    "static/js/main.674c4d90.js"
+    "static/css/main.7a7b8c8f.css",
+    "static/js/main.68f09a5f.js"
   ]
 }
