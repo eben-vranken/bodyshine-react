@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bodyshine-react/static/css/main.391acdb7.css",
+    "main.css": "/bodyshine-react/static/css/main.a8c7ff58.css",
     "main.js": "/bodyshine-react/static/js/main.f47497b0.js",
     "static/media/contact-banner.jpg": "/bodyshine-react/static/media/contact-banner.351d22aa742aae13693c.jpg",
     "index.html": "/bodyshine-react/index.html",
-    "main.391acdb7.css.map": "/bodyshine-react/static/css/main.391acdb7.css.map",
+    "main.a8c7ff58.css.map": "/bodyshine-react/static/css/main.a8c7ff58.css.map",
     "main.f47497b0.js.map": "/bodyshine-react/static/js/main.f47497b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.391acdb7.css",
+    "static/css/main.a8c7ff58.css",
     "static/js/main.f47497b0.js"
   ]
 }
