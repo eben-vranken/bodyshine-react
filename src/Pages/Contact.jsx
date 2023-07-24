@@ -27,7 +27,7 @@ const Contact = () => {
     return (
         <Page className="flex-wrap flex-row items-center justify-between [&>*]:mx-1">
             {/* Contact Form */}
-            <section className="lg:w-1/3 w-full">
+            <section className="xl:w-2/5 w-full">
                 <Banner img={banner} alt="contact-banner" text="Contact" />
 
                 <form ref={form} onSubmit={sendMail} id="contact-form" className="my-5 w-full [&>section]:my-5">
@@ -56,7 +56,7 @@ const Contact = () => {
                 </form>
             </section>
 
-            <section className="lg:w-1/3 w-full h-f bg-red-500 text-center ">
+            <section className="xl:w-2/5 w-full h-f bg-red-500 text-center ">
                 <span>Hier komt calender item</span>
             </section>
         </Page>
