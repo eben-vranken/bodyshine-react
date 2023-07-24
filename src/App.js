@@ -1,5 +1,5 @@
 // Components
-import Footer from "./Components/Common/Footer";
+import Footer from "./Components/UI/Footer";
 import Navbar from "./Components/Navigation/Navbar";
 
 // Pages
